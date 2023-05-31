@@ -44,3 +44,24 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+
+#Firebase ___________________________________________________:
+
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+const firebaseConfig = {
+  apiKey: "AIzaSyBiPLZAQDOd5onfqJJ5ZKOhnL0Us2oMdLA",
+  authDomain: "linkedin-clone-1659a.firebaseapp.com",
+  projectId: "linkedin-clone-1659a",
+  storageBucket: "linkedin-clone-1659a.appspot.com",
+  messagingSenderId: "880776200633",
+  appId: "1:880776200633:web:a9bab95ca52d9f6183f668"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
