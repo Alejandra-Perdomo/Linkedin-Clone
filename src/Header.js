@@ -14,7 +14,7 @@ import { logout, selectUser } from './features/counter/userSlice';
 
 function Header() {
   const user = useSelector(selectUser).user;
-  console.log('header',user)
+
   const dispatch = useDispatch();
 
   const logOutOfApp = () =>{

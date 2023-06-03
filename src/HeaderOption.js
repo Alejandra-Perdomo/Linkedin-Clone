@@ -9,7 +9,7 @@ function HeaderOption({avatar, Icon, title, onClick}) {
 
   const user = useSelector(selectUser).user;
 /*   console.log('header',user.email[0].toUpperCase()); */
-  console.log('avatar',avatar)
+
   return (
     <div onClick={onClick} className="headerOption">
         {Icon && <Icon className="headerOption__icon"/>}
